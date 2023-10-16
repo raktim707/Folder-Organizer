@@ -23,8 +23,11 @@ What the program does
 
 options:
   -h, --help            show this help message and exit
+  
   -s SOURCE, --source SOURCE
                         source path (This is the folder that you want to organize)
+                        
   -d DEST, --dest DEST  destination path (This is the folder where you want to move the files)
+  
   -f {image,video,music,sheet,pdf,doc}, --file {image,video,music,sheet,pdf,doc}
                         file type (The type of file you want to move from source to destination folder)
